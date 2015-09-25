@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Library of Babel</title>
+    <script src="library-of-babel.min.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="index.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <h1>Library of Babel</h1>
+    <div class="container">
+      <div class="input-side">
+        <h2>Hexagon:</h2>
+        <textarea id="input"></textarea>
+        <div class="form">
+          <label>Wall</label>
+          <select id="wall">
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+          </select>
+          <label>Shelf</label>
+          <select id="shelf">
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+            <option value="4">5</option>
+          </select>
+          <label>Volume</label>
+          <select id="volume">
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+            <option value="4">5</option>
+            <option value="5">6</option>
+            <option value="6">7</option>
+            <option value="7">8</option>
+            <option value="8">9</option>
+            <option value="9">10</option>
+            <option value="10">11</option>
+            <option value="11">12</option>
+            <option value="12">13</option>
+            <option value="13">14</option>
+            <option value="14">15</option>
+            <option value="15">16</option>
+            <option value="16">17</option>
+            <option value="17">18</option>
+            <option value="18">19</option>
+            <option value="19">20</option>
+            <option value="20">21</option>
+            <option value="21">22</option>
+            <option value="22">23</option>
+            <option value="23">24</option>
+            <option value="24">25</option>
+            <option value="25">26</option>
+            <option value="26">27</option>
+            <option value="27">28</option>
+            <option value="28">29</option>
+            <option value="29">30</option>
+            <option value="30">31</option>
+            <option value="31">32</option>
+          </select>
+          <label>Page</label>
+          <input id="page" type="number" value="1" min="1" max="410">
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="hexagon-to-text">Get Text ---&gt;</button>
+        <button id="text-to-hexagon">Find Hexagon &lt;---</button>
+      </div>
+      <div class="output-side">
+        <h2>Text:</h2>
+        <textarea id="output"></textarea>
+      </div>
+    </div>
+  </body>
+</html>

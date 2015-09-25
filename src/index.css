@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+textarea {
+  font-family: monospace;
+  height: 600px;
+  width: 400px;
+}
+#input {
+  height: 200px;
+}
+label {
+    float: left;
+    font-size: 12pt;
+}
+select,
+input {
+  display: block;
+  font-size: 12pt;
+  margin: 10px 0 10px 150px;
+  padding: 5px;
+  width: 100px;
+}
+button {
+  margin: 10px;
+  width: 160px;
+}
+.buttons {
+  padding: 50px 10px;
+  text-align: center;
+  width: 200px;
+}
